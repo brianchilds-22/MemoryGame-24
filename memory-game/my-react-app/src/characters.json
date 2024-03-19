@@ -2,73 +2,73 @@
   {
     "id": 1,
     "character": "Pabst Blue Ribbon",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/61AG11fiwUL._SY879_.jpg",
+    "image": "/images/Pabst.png",
     "clicked": false
   },
   {
     "id": 2,
     "character": "Miller Lite",
-    "image": "",
+    "image": "/images/Lite.png",
     "clicked": false
   },
   {
     "id": 3,
     "character": "Genesee",
-    "image": "https://d33wubrfki0l68.cloudfront.net/ade4983d311e5cc6e3a1c2e88cfd59da37ef65d2/39494/images/beer/genesee-can.jpg",
+    "image": "/images/Genessee-Beer.jpg",
     "clicked": false
   },
   {
     "id": 4,
     "character": "Coors",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZdDP_N6c4-ZqK9KiVSD3rJEgoeb0OPCvZ6n-f2fHmIBzeSk0w",
+    "image": "/images/Coors-Banq-Can.png",
     "clicked": false
   },
   {
     "id": 5,
     "character": "Bud Light",
-    "image": "http://l4l.ky/shop/wp-content/uploads/2014/07/budlitecan-01-720x720.jpg",
+    "image": "/images/BudLight.jpg",
     "clicked": false
   },
   {
     "id": 6,
     "character": "Coors Light",
-    "image": "https://target.scene7.com/is/image/Target/GUEST_2a49e603-44aa-42cd-b120-73a94d617f55?wid=488&hei=488&fmt=pjpeg",
+    "image": "/images/CoorsLight.jpg",
     "clicked": false
   },
   {
     "id": 7,
     "character": "Budweiser",
-    "image": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_42ae1c96-17ca-4767-9c19-d36459c089fb.JPG",
+    "image": "/images/budweiser.jpg",
     "clicked": false
   },
   {
     "id": 8,
-    "character": "Hamms",
-    "image": "https://www.totalwine.com/dynamic/490x/media/sys_master/twmmedia/ha6/h94/8799564202014.png",
+    "character": "Natural Ice",
+    "image": "/images/natural-ice.jpg",
     "clicked": false
   },
   {
     "id": 9,
-    "character": "Strohs",
-    "image": "http://res.cloudinary.com/ratebeer/image/upload/w_200,h_200,c_pad,d_beer_img_default.png,f_auto/beer_736",
+    "character": "Old Milwaukee",
+    "image": "/images/OldMilwaukee.jpg",
     "clicked": false
   },
   {
     "id": 10,
-    "character": "Old Style",
-    "image": "https://products2.imgix.drizly.com/ci-old-style-beer-27067f39db712e6a.png?auto=format%2Ccompress&fm=jpeg&q=20",
+    "character": "Busch",
+    "image": "/images/busch-12oz.jpg",
     "clicked": false
   },
   {
     "id": 11,
-    "character": "High Life",
-    "image": "https://cdn.shopify.com/s/files/1/1221/5244/products/st005-1-600.jpeg?v=1461520208",
+    "character": "Tecate",
+    "image": "/images/tecate-original-beer.png",
     "clicked": false
   },
   {
     "id": 12,
-    "character": "Milwaukees Best ICE",
-    "image": "https://www.origlio.com/sites/default/files/beverage/mil-best-ice-12-oz.png",
+    "character": "Steel Reserve",
+    "image": "/images/Steel Reserve.jpg",
     "clicked": false
   }
 ]

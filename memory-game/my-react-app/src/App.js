@@ -16,7 +16,7 @@ function shuffleFriends(array) {
 
 class App extends Component {
   state = {
-    characters,
+    characters: characters,
     currentScore: 0,
     highScore: 0,
     message: "",
@@ -55,7 +55,7 @@ class App extends Component {
   };
 
   handleShuffle = () => {
-    let shuffledFriends = shuffleFriends(characters);
+    let shuffledFriends = shuffleFriends(this.state.characters);
     this.setState({ characters: shuffledFriends });
   };
 
