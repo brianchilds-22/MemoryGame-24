@@ -1,0 +1,56 @@
+nav {
+    width: 75%;
+    /* font-size: 22px; */
+    /* color: #CCDBDC; */
+    /* margin-bottom: 50px; */
+    background-color: rgb(224, 166, 7);
+    height: auto;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+
+  }
+  
+  #gameScore, #highScore, #message{
+    font-size: 50px;
+    /* padding-right: 10px; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+/* 
+  #gameScore {
+    text-align: right;
+  
+  } */
+
+  #highScore {
+    text-align: right;
+    color: rgb(233, 206, 88);
+  }
+
+  #message{
+    color: red;
+    text-align: center;
+  }
+
+  .header {
+    color: rgb(233, 206, 88);
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  
+  nav li {
+    display: inline-block;
+    padding: 0px 250px;
+    /* width: 25%; */
+  }
+  
+  ul {
+    /* display: flex; */
+    align-items: center;
+  }
+  
+  @media only screen and (max-width: 750px) {
+    #gameScore, #highScore, a {
+      font-size: 1rem;
+      text-decoration: none;
+    }
+}
