@@ -1,8 +1,9 @@
 import React from "react";
+import { Col } from "react-bootstrap";
 import "./CharacterCard.css";
 
 const CharacterCard = (props) => (
-  <div className="col-md-2 col-sm-3 col-6">
+  <Col xs={4} sm={3} md={4} lg={3}>
     <div
       className="card"
       value={props.id}
@@ -12,7 +13,7 @@ const CharacterCard = (props) => (
         <img alt={props.character} src={props.image} />
       </div>
     </div>
-  </div>
+  </Col>
 );
 
 export default CharacterCard;

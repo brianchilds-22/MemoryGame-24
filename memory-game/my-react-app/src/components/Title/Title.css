@@ -1,23 +1,33 @@
 .title {
-    width: 100%;
-    text-align: right;
-    font-size: 70px;
-    /* font-family: "wigwag-bold", sans-serif; */
-    font-family: 'Luckiest Guy', cursive;
-    /* font-family: 'Times New Roman', Times, serif; */
-    font-weight: 400;
-    font-style: normal;
-    color: brown;
-    /* margin-bottom: 50px; */
-    padding-left: 3%;
-    padding-right: 3%;  
-  }
+  width: 100%;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Ropa Sans", regular;
+  font-style: normal;
+  color: black;
+  font-weight: 600;
+  margin: 0 auto;
+  padding-left: 3%;
+  padding-right: 3%;
+}
 
+.navMessage {
+  font-size: 50px;
+  /* font-family: wigwag-deluxe, sans-serif; */
+  color: white;
+  font-weight: 400;
+  background-color: red;
+  font-style: normal;
+  margin: 10px 0;
+}
+
+@media (min-width: 315px) and (max-width: 500px) {
+  .title {
+    font-size: 25px;
+    font-weight: 600;
+  }
   .navMessage {
-    font-size: 50px;
-    /* font-family: wigwag-deluxe, sans-serif; */
-
-    font-weight: 400;
-
-    font-style: normal;
+    font-size: 12px;
+    margin: 0;
   }
+}

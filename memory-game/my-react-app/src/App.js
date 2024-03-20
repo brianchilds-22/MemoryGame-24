@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Container, Row } from "react-bootstrap";
 import CharacterCard from "./components/Character-Card";
 import Nav from "./components/Nav";
 import Wrapper from "./components/Wrapper";
@@ -6,7 +7,7 @@ import Title from "./components/Title";
 import characters from "./characters.json";
 import "./App.css";
 
-function shuffleFriends(array) {
+function shuffleCharacters(array) {
   for (let i = array.length - 1; i > 0; i--) {
     let j = Math.floor(Math.random() * (i + 1));
     [array[i], array[j]] = [array[j], array[i]];
@@ -26,7 +27,11 @@ class App extends Component {
   handleClick = (id) => {
     if (this.state.clicked.indexOf(id) === -1) {
       this.handleIncrement();
-      this.setState({ clicked: this.state.clicked.concat(id) });
+      this.setState({ clicked: this.state.clicked.concat(id) }, () => {
+        if (this.state.clicked.length === this.state.characters.length) {
+          this.handleWin();
+        }
+      });
     } else {
       this.handleReset();
     }
@@ -36,7 +41,7 @@ class App extends Component {
     const newScore = this.state.currentScore + 1;
     this.setState({
       currentScore: newScore,
-      message: "You Guessed Right, Have Another!!",
+      message: "You Guessed Right, Have a Sip!!",
     });
     if (newScore >= this.state.highScore) {
       this.setState({ highScore: newScore });
@@ -48,28 +53,38 @@ class App extends Component {
     this.setState({
       currentScore: 0,
       highScore: this.state.highScore,
-      message: "Have You Been Drinking?",
+      message: "Maybe switch to Water?",
       clicked: [],
     });
     this.handleShuffle();
   };
 
   handleShuffle = () => {
-    let shuffledFriends = shuffleFriends(this.state.characters);
-    this.setState({ characters: shuffledFriends });
+    let shuffledCharacters = shuffleCharacters(this.state.characters);
+    this.setState({ characters: shuffledCharacters });
+  };
+
+  handleWin = () => {
+    this.setState({
+      message: "You finished the 12 pack, better get an Uber !",
+    });
   };
 
   render() {
     return (
       <Wrapper>
-        <Title>Beer Can Clicky Game</Title>
+        <Title>Tipsy Memory</Title>
 
-        <Nav score={this.state.currentScore} highScore={this.state.highScore} />
         <Title>
-          <h3 className="navMessage">{this.state.message}</h3>
           Click on a Beer to score points, but don't click the same beer twice
           you might spill!!
+          <Nav
+            score={this.state.currentScore}
+            highScore={this.state.highScore}
+          />
+          <h3 className="navMessage">{this.state.message}</h3>
         </Title>
+
         {this.state.characters.map((character) => (
           <CharacterCard
             key={character.id}
