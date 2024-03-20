@@ -24,7 +24,7 @@ To run this project locally, you need to have Node.js and npm (Node Package Mana
 
 1. Clone the repository: git clone https://github.com/your-username/beer-can-clicky-game.git
 2. Navigate to the project directory: cd beer-can-clicky-game
-3. 3. Install dependencies: npm install
+3. Install dependencies: npm install
 
 
 ## Usage
