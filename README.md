@@ -43,7 +43,7 @@ Click on a beer can to score points, but don't click the same beer can twice, or
 
 
 ## Demo
-[(https://brianchilds-22.github.io/MemoryGame-24/)https://brianchilds-22.github.io/MemoryGame-24/] 
+[(https://brianchilds-22.github.io/MemoryGame-24/)] 
 
 
 
