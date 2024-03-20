@@ -1,6 +1,6 @@
-# Beer Can Clicky Game 2024
+# Tipsy Memory 2024
 
-Welcome to **Beer Can Clicky Game**! This is a simple memory game built using React. The objective is to click on beer cans without clicking the same beer can twice. Let's see how many you can remember!
+Welcome to **Tipsy Memory**! This is a simple memory game built using React. The objective is to click on beer cans without clicking the same beer can twice. Let's see how many you can remember!
 
 ## Table of Contents
 
