@@ -2,73 +2,73 @@
   {
     "id": 1,
     "character": "Pabst Blue Ribbon",
-    "image": "/images/Pabst.png",
+    "image": "./images/Pabst.png",
     "clicked": false
   },
   {
     "id": 2,
     "character": "Miller Lite",
-    "image": "/images/Lite.png",
+    "image": "./images/Lite.png",
     "clicked": false
   },
   {
     "id": 3,
     "character": "Genesee",
-    "image": "/images/Genessee-Beer.jpg",
+    "image": "./images/Genessee-Beer.jpg",
     "clicked": false
   },
   {
     "id": 4,
     "character": "Coors",
-    "image": "/images/Coors-Banq-Can.png",
+    "image": "./images/Coors-Banq-Can.png",
     "clicked": false
   },
   {
     "id": 5,
     "character": "Bud Light",
-    "image": "/images/BudLight.jpg",
+    "image": "./images/BudLight.jpg",
     "clicked": false
   },
   {
     "id": 6,
     "character": "Coors Light",
-    "image": "/images/CoorsLight.jpg",
+    "image": "./images/CoorsLight.jpg",
     "clicked": false
   },
   {
     "id": 7,
     "character": "Budweiser",
-    "image": "/images/budweiser.jpg",
+    "image": "./images/budweiser.jpg",
     "clicked": false
   },
   {
     "id": 8,
     "character": "Natural Ice",
-    "image": "/images/natural-ice.jpg",
+    "image": "./images/natural-ice.jpg",
     "clicked": false
   },
   {
     "id": 9,
     "character": "Old Milwaukee",
-    "image": "/images/OldMilwaukee.jpg",
+    "image": "./images/OldMilwaukee.jpg",
     "clicked": false
   },
   {
     "id": 10,
     "character": "Busch",
-    "image": "/images/busch-12oz.jpg",
+    "image": "./images/busch-12oz.jpg",
     "clicked": false
   },
   {
     "id": 11,
     "character": "Tecate",
-    "image": "/images/tecate-original-beer.png",
+    "image": "./images/tecate-original-beer.png",
     "clicked": false
   },
   {
     "id": 12,
     "character": "Steel Reserve",
-    "image": "/images/Steel Reserve.jpg",
+    "image": "./images/Steel Reserve.jpg",
     "clicked": false
   }
 ]
