@@ -29,8 +29,7 @@ To run this project locally, you need to have Node.js and npm (Node Package Mana
 
 ## Usage
 
-To start the development server and play the game in your web browser, run: 
-###npm start
+To start the development server and play the game in your web browser, run: **npm start**
 
 The game will be accessible at `http://localhost:3000` by default.
 
