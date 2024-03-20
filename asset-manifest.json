@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MemoryGame-24/static/css/main.86552d17.css",
+    "main.js": "/MemoryGame-24/static/js/main.fb2ab1f4.js",
+    "static/js/453.ad6eb26e.chunk.js": "/MemoryGame-24/static/js/453.ad6eb26e.chunk.js",
+    "index.html": "/MemoryGame-24/index.html",
+    "main.86552d17.css.map": "/MemoryGame-24/static/css/main.86552d17.css.map",
+    "main.fb2ab1f4.js.map": "/MemoryGame-24/static/js/main.fb2ab1f4.js.map",
+    "453.ad6eb26e.chunk.js.map": "/MemoryGame-24/static/js/453.ad6eb26e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86552d17.css",
+    "static/js/main.fb2ab1f4.js"
+  ]
+}
