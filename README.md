@@ -1,6 +1,6 @@
-# Beer Can Clicky Game 2024
+# Tipsy Memory 2024
 
-Welcome to **Beer Can Clicky Game**! This is a simple memory game built using React. The objective is to click on beer cans without clicking the same beer can twice. Let's see how many you can remember!
+Welcome to **Tipsy Memory**! This is a simple memory game built using React. The objective is to click on beer cans without clicking the same beer can twice. Let's see how many you can remember!
 
 ## Table of Contents
 
@@ -24,23 +24,17 @@ To run this project locally, you need to have Node.js and npm (Node Package Mana
 
 1. Clone the repository: git clone https://github.com/your-username/beer-can-clicky-game.git
 2. Navigate to the project directory: cd beer-can-clicky-game
-3. 3. Install dependencies: npm install
+3. Install dependencies: npm install
 
 
 ## Usage
 
-To start the development server and play the game in your web browser, run: npm start
+To start the development server and play the game in your web browser, run: **npm start**
 
 The game will be accessible at `http://localhost:3000` by default.
 
 Click on a beer can to score points, but don't click the same beer can twice, or you might spill!
 
-## Deployment
-
-To deploy your Beer Can Clicky Game, you can use various hosting services like Netlify, Vercel, or GitHub Pages. Make sure to build the app first by running: npm run build
-
-
-Then, follow the deployment instructions provided by your chosen hosting service.
 
 ## Built With
 
@@ -48,11 +42,10 @@ Then, follow the deployment instructions provided by your chosen hosting service
 - [create-react-app](https://create-react-app.dev/) - Officially supported way to create React apps
 
 
-## Acknowledgments
+## Demo
 
-- Beer images sourced from [Unsplash](https://unsplash.com/)
-- Special thanks to the React community for their valuable resources and support.
-
+ 
+[Tipsy Memory](https://brianchilds-22.github.io/MemoryGame-24/)
 
 
 
