@@ -35,12 +35,6 @@ The game will be accessible at `http://localhost:3000` by default.
 
 Click on a beer can to score points, but don't click the same beer can twice, or you might spill!
 
-## Deployment
-
-To deploy your Beer Can Clicky Game, you can use various hosting services like Netlify, Vercel, or GitHub Pages. Make sure to build the app first by running: npm run build
-
-
-Then, follow the deployment instructions provided by your chosen hosting service.
 
 ## Built With
 
@@ -48,10 +42,8 @@ Then, follow the deployment instructions provided by your chosen hosting service
 - [create-react-app](https://create-react-app.dev/) - Officially supported way to create React apps
 
 
-## Acknowledgments
-
-- Beer images sourced from [Unsplash](https://unsplash.com/)
-- Special thanks to the React community for their valuable resources and support.
+## Demo
+[Link to live demo](#)
 
 
 
